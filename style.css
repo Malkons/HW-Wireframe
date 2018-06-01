@@ -7,39 +7,77 @@ body {
     margin: 0 auto;
     padding: 0;
 }
-.header {
+
+header {
     background: #ebebeb;
-    padding: 30px 0;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    font-size: 20px;
-    margin-bottom: 10px; 
     text-align: center;
-    width: 960px;
+    font-size: 8px;
+    padding: 20px;
+    margin-top: 5px;
 }
 
-.nav {
+nav {
     background: #ebebeb;
-    padding: 30px 0;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 20px;
-    margin-bottom: 20px; 
     text-align: center;
-    width: 960px;     
+    font-size: 10px;
+    padding: 20px;
+    margin-top: 5px;
 }
 
-.aside {
+section {
     background: #ebebeb;
-    padding-bottom: 300px;
-    padding-top: 30px;
-    margin-top: 0px;
-    margin-bottom: 495px;
-    font-size: 20px;
-    margin-bottom: 20px; 
-    text-align: center;
     width: 495px;
-    float: right;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #article {
+      background: #777;
+      color: #ebebeb;
+      text-align: center;
+      width: 465px;
+      margin: 15px;
+      padding-top: 2px;
+      padding-bottom: 170px;
+         
+  }
+
+  #h1, #p {
+      background: #ebebeb;
+      color: #777;
+      width: 430px;
+      margin-left: 17px;
+      font-size: large;
+  }
+
+  #p {
+      padding-top: 3px;
+      padding-bottom: 3px;
+  }
+
+  aside {
+    Float: right;
+    background: #ebebeb;
+    color: #777;
+    text-align: center;
+    width: 450px;
+    padding-bottom: 244px;
+    margin-top: 10px;
+  }
+
+footer {
+    background: #ebebeb;
+    color: #777;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
 
 }
 
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
